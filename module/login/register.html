@@ -1,0 +1,51 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>注册中心</title>
+        <link rel="stylesheet" href="css/login.css">
+        <script src="../../common/js/jquery-3.2.1.min.js"></script>
+        <script src="../../common/js/common.js"></script>
+        <script src="../../common/js/base.js"></script>
+        <script src="js/register.js"></script>
+    </head>
+
+    <body>
+        <div id="enterprise-nav">
+            <a href="../../index.html">
+                <div id="nav-logo">
+                    <img src="../../common/images/logo-w.png" height="25px" style="padding-right: 10px">
+                    <span id="header_title">-</span>
+                </div>
+            </a>
+        </div>
+
+        <div id="login-container">
+            <div style="color: white;text-align:right;"><p style="font-size: 48px;font-weight: bold">注册</p><span
+                    style="font-size: 16px">平台验证中心</span>
+                <span style="margin-top: 10px;margin-bottom: 10px;font-size: 14px;">v2.1</span></div>
+            <div id="login-box">
+                <input placeholder="请输入邮箱" type="text" id="user_account">
+                <input placeholder="请输入昵称" type="text" id="user_name">
+                <input placeholder="请输入密码" type="password" id="password">
+                <input placeholder="请重复密码" type="password" id="password_repeat">
+                <div>
+                    <input placeholder="验证码" type="text" id="verfiy_code" style="width: 200px;float: left;">
+                    <div class="verfiy-button" onclick="sendCode()">发送验证码</div>
+                </div>
+<!--                <p style="color: white;font-size: 15px;margin-top: 15px;line-height: 13px"><input type="checkbox" id="agreement">我同意游戏服务条款-->
+                </p>
+                <br>
+                <div class="login-button" onclick="register()">立 即 注 册</div>
+                <div style="width: 300px">
+                    <span class="register-account"><a href="login.html">已有账户</a></span>
+                    <span class="forget-password"><a href="#">忘记密码</a></span>
+                </div>
+            </div>
+        </div>
+        <p id="accreditation">IMC.RE  Copyright All Rights Reserved 2022 - 2023</p>
+        <img src="images/login.jpg" style="position: absolute;top: 0;left: 0;width: 100%;height:100%;z-index: -2">
+    </body>
+</html>

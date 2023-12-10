@@ -1,0 +1,218 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+#login-container {
+    width: 600px;
+    position: absolute;
+    right: 24%;
+    top: calc((100% - 320px) / 2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    animation: login-box 1s ease 1;
+}
+
+@keyframes login-box {
+    0% {
+        top: calc((100% - 250px) / 2);
+        opacity: .2;
+    }
+    100% {
+        top: calc((100% - 320px) / 2);
+        opacity: 1;
+    }
+}
+
+#login-box {
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition-duration: 300ms;
+}
+#program-code-img{
+    margin-top: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    justify-content: space-between;
+    opacity: 0;
+    transition-duration: 500ms;
+
+}
+#nav-logo {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
+
+#accreditation {
+    font-size: 14px;
+    color: #7b7b7b;
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+}
+
+#login-with-wc {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#login-with-pw{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition-duration: 400ms;
+}
+
+input[type='password'], input[type='text'] {
+    outline: none;
+    padding: 0 10px 0 10px;
+    width: 300px;
+    border: 2px solid white;
+    appearance: none;
+    margin-top: 15px;
+    background-color: transparent;
+    line-height: 50px;
+    height: 50px;
+    transition-duration: 200ms;
+    caret-color: transparent;
+    color: #FFFFFF;
+}
+
+input::placeholder {
+    color: white;
+}
+
+input:focus {
+    border: 2px solid #00ffbb;
+}
+
+.login-button {
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    background-color: white;
+    text-align: center;
+    font-size: 16px;
+    color: #00b38a;
+    font-weight: bold;
+    margin-top: 10px;
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+
+.verfiy-button {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    background-color: white;
+    text-align: center;
+    font-size: 16px;
+    color: #00b38a;
+    font-weight: bold;
+    margin-top: 15px;
+    transition-duration: 200ms;
+    cursor: pointer;
+    float: left;
+}
+
+input[type='checkbox'] {
+    width: 15px;
+    height: 15px;
+    -webkit-appearance: none;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+input[type='checkbox']:checked {
+    background: url("../../public/images/right.png");
+    background-position: center;
+    border: 1px solid transparent;
+}
+
+#enterprise-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    user-select: none;
+    width: 60%;
+    padding: 0 20% 0 20%;
+}
+
+.login-title {
+    font-size: 24px;
+}
+
+.version {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #888888;
+    font-size: 14px;
+}
+
+.register-account {
+    display: block;
+    height: 30px;
+    float: left;
+    width: 150px;
+    text-align: left;
+    margin-top: 15px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.forget-password {
+    display: block;
+    height: 30px;
+    float: left;
+    width: 150px;
+    text-align: right;
+    margin-top: 15px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #76ffc8;
+    color: #008768;
+}
+
+.login-button:active {
+    background-color: #007050;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    transition-duration: 150ms;
+}
+
+a:hover {
+    color: white;
+}

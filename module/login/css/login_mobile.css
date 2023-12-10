@@ -1,0 +1,80 @@
+.login-input{
+  height: 35px;
+  width: 90%;
+  padding: 1%;
+  /*background: #eeeeee;*/
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.login-input input{
+  height: 35px;
+  width: 80%;
+  border: none;
+  margin-left: 10px;
+  border-bottom: 1px solid #eeeeee;
+  padding-left: 10px;
+}
+
+.login-checkbox{
+  height: 10px;
+  width: 10px;
+}
+
+.login-input i{
+  margin-left: 10px;
+  font-size: 16px;
+  width: 15px;
+}
+
+.login-logo{
+  height: 60px;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 22px;
+  font-weight: bolder;
+  color: #00a375;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 60px;
+}
+.login-logo-span{
+  font-size: 14px;
+  display: block;
+  margin-top: -30px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.login-logo-image{
+  height: 50px;
+  text-align: center;
+}
+
+.login-btn{
+  height: 35px;
+  width: 90%;
+  padding: 1%;
+  background: #00a375;
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 4px;
+  line-height: 35px;
+}
+
+.login-toRegister{
+  height: 35px;
+  width: 90%;
+  padding: 1%;
+  /*background: #eeeeee;*/
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.login-forget-pwd{
+  text-align: right;
+  float: right;
+}

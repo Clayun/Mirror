@@ -1,0 +1,124 @@
+.mine-head-box{
+  height: 150px;
+  width: 100%;
+  background: #00a375;
+}
+
+.mine-head-info{
+  height: 90px;
+  width: 90%;
+  margin: 0 auto;
+  /*background: #888888;*/
+}
+
+.mine-avatar{
+  height: 80px;
+  width: 80px;
+  border-radius: 80px;
+  float: left;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.mine-avatar-img{
+  height: 80px;
+  width: 80px;
+}
+
+.mine-info{
+  height: 80px;
+  width: 60%;
+  /*background: #ffffff;*/
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.mine-info p{
+  font-size: 16px;
+  padding-top: 5px;
+  color: #ffffff;
+}
+
+.mine-balance-box{
+  height: 130px;
+  width: 100%;
+  background: #ffffff;
+  float: left;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.mine-balance-amount-box{
+  float: left;
+  height: 100px;
+  width: 55%;
+  /*background: #67C233;*/
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.mine-balance-btn-box{
+  height: 100px;
+  width: 30%;
+  float: right;
+  /*background: #888888;*/
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.mine-balance-btn{
+  height: 35px;
+  width: 90px;
+  border-radius: 5px;
+  border: 1px solid #67C233;
+  background: #67C233;
+  float: left;
+  margin-top: 10px;
+  margin-left: 5px;
+  text-align: center;
+  line-height: 35px;
+  color: #ffffff;
+}
+
+.mine-panel-box{
+  height: 100px;
+  width: 100%;
+  background: #ffffff;
+  margin-top: 110px;
+}
+
+.mine-panel-item{
+  height: 100px;
+  width: 25%;
+  float: left;
+  /*background: #67C233;*/
+}
+
+.mine-nav-box{
+  width: 100%;
+  background: #ffffff;
+  margin-top: 10px;
+}
+
+.mine-nav-item{
+  height: 60px;
+  border-bottom: 1px solid #eeeeee;
+  width: 100%;
+}
+
+.mine-nav-item-tb{
+  line-height: 60px;
+  width: 60%;
+  float: left;
+  text-align: left;
+}
+
+.mine-nav-item-tb-right{
+  line-height: 60px;
+  width: 30%;
+  float: right;
+  text-align: right;
+  margin-right: 20px;
+}
+

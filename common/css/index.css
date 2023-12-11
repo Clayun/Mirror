@@ -1306,7 +1306,7 @@ th,td{
     font-size: 18px;
     line-height: 2.2;
     margin-bottom: 28px;
-    width: 45%;
+    width: 47%;
     height: auto;
     float: left;
 }
@@ -1856,4 +1856,9 @@ th,td{
     overflow: hidden;
     text-overflow: ellipsis;
     padding-right: 20px;
+}
+
+.middle-panel{
+    max-width: 1200px;
+    margin: 0 auto;
 }
